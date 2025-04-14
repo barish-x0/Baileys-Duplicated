@@ -300,4 +300,5 @@ export type MediaDecryptionKeyInfo = {
     cipherKey: Buffer;
     macKey?: Buffer;
 };
+
 export type MinimalMessage = Pick<proto.IWebMessageInfo, 'key' | 'messageTimestamp'>;
